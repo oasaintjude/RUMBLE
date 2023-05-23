@@ -1,0 +1,200 @@
+:root {
+    --red: #D41414;
+    --white: #FFFFFF;
+    --soft-gray: #E8E7E8;
+    --kinda-black: #282626;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hero-section-and-navigation {
+    background-image: url("images/bgsect.png");
+    background-repeat: no-repeat;
+    background-color: var(--soft-gray);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 70vh;
+}
+
+.hero-section-and-navigation nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 50px;
+}
+nav img {
+    width: 160px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav li {
+    list-style: none;
+    margin-right: 30px;
+}
+nav a {
+    text-decoration: none;
+    color: var(--white);
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 650px;
+}
+nav button {
+    background-color: var(--red);
+    color: white;
+    font-family: 'Saira Condensed', sans-serif;
+    letter-spacing: 2px;
+    border: none;
+    cursor: pointer;
+    width: 80px;
+    height: 35px;
+}
+.hero-section-and-navigation h1 {
+    color: var(--white);
+    padding-left: 120px;
+    padding-top: 8px;
+    letter-spacing: 4px;
+    font-size: 100px;
+    width: 670px;
+    font-family: 'Saira Condensed', sans-serif;
+}
+.hero-section-and-navigation span {
+    color: var(--red);
+}
+
+/* BLAH */
+.blah {
+    background-color: var(--soft-gray);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10%;
+}
+
+/* CROSSFIT, WEIGHT & EXERCISE */
+.crossfit-weights-exercise {
+    position: absolute;
+    top: 60%;
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    padding: 10px 0;
+    width: 40%;
+    box-shadow: 2px 30px 95px -50px red;
+}
+.crossfit-weights-exercise h3 {
+    padding-top: 10px;
+    color: var(--red);
+    font-family: 'Saira Condensed', sans-serif;
+}
+.cew {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* WRITEUP & IMG */
+.writeup-and-image {
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    padding-top: 8%;
+}
+.boxer-model {
+    background-image: url("images/lady-boxer.png");
+    background-repeat: no-repeat;
+    background-color: var(--soft-gray);
+    background-size: 100% 100%;
+    width: 70vh;
+    height: 65vh;
+    margin-right: 80px;
+}
+.hr-and-h1 {
+    display: flex;
+    align-items: center;
+    font-family: 'Saira Condensed', sans-serif;
+    padding-top: 30px;
+    width: 350px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    padding-bottom: 15px;
+}
+.hr-and-h1 hr {
+    width: 8px;
+    height: 80px;
+    margin-right: 10px;
+    background-color: var(--red);
+    border: none;
+}
+.writeup p {
+    width: 500px;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    padding-bottom: 40px;
+    color: var(--kinda-black);
+}
+.writeup button {
+    background-color: var(--red);
+    color: white;
+    font-family: 'Saira Condensed', sans-serif;
+    letter-spacing: 2px;
+    border: none;
+    cursor: pointer;
+    width: 80px;
+    height: 35px;
+}
+
+/* FOOTER */
+footer {
+    background-color: black;
+}
+.lesson-and-sicon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Saira Condensed', sans-serif;
+    padding: 50px 180px;
+}
+.lesson-and-sicon h2 {
+    color: var(--white);
+    width: 190px;
+    letter-spacing: 2px;
+}
+.lesson-and-sicon span {
+    color: var(--red);
+}
+
+.sicons a {
+    margin-right: 20px;
+}
+
+/* MAIL, PRIVACY POLICY & TERMS/CONDITIONS */
+.mail-tandc-privacy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 180px;
+}
+.fa-solid {
+    padding-right: 10px;
+}
+.mail-tandc-privacy a {
+    color: var(--white);
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+}
+.mail-tandc-privacy ul {
+    display: flex;
+    align-items: center;
+}
+.mail-tandc-privacy li {
+    list-style: none;
+    padding-right: 15px;
+}
