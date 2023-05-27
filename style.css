@@ -154,6 +154,14 @@ nav button {
 footer {
     background-color: black;
 }
+footer p {
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+footer a {
+    color: white;
+}
 .lesson-and-sicon {
     display: flex;
     justify-content: space-between;
