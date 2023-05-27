@@ -9,7 +9,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+.smaller-screen-sizes {
+    display: none;
+}
 .hero-section-and-navigation {
     background-image: url("images/bgsect.png");
     background-repeat: no-repeat;
@@ -205,4 +207,18 @@ footer a {
 .mail-tandc-privacy li {
     list-style: none;
     padding-right: 15px;
+}
+
+
+/* RESPONSIVE */
+@media screen and (min-width: 1px) and (max-width: 1000px) {
+    .big-screen {
+        display: none;
+    }
+
+    .smaller-screen-sizes {
+        display: block;
+        text-align: center;
+        padding-top: 150px;
+    }
 }
